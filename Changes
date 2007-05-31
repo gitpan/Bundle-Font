@@ -1,0 +1,6 @@
+Revision history for Perl extension Bundle::Font.
+
+0.01  Wed May 30 15:08:59 2007
+	- original version; created by h2xs 1.23 with options
+		-AXcfn Bundle::Font
+
