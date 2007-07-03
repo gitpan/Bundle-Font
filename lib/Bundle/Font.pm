@@ -1,9 +1,9 @@
 package Bundle::Font;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
-__END__;
+__END__
 
 
 =head1 NAME
@@ -47,8 +47,6 @@ Text::PDF
 Bundle::Gnome2
 
 Gtk2
-
-Gtk2::CV
 
 Tk::FontDialog
 
@@ -106,7 +104,7 @@ X11::Protocol
 
 Glib
 
-Compress::Zlib
+Bundle::Compress::Zlib
 
 BerkeleyDB
 
@@ -146,7 +144,7 @@ File::Type
 
 Text::Widont
 
-Text::AutoFormat
+Text::Autoformat
 
 Font::BDF::Reader
 
@@ -164,14 +162,13 @@ Font::GlyphNames
 
 SDL::sdlpl
 
-Bundle::Encode
-
-Bundle::Unicode
+Bundle::PDF
 
 =head1 SEE ALSO
 
 Font::FreeType had some problems. It will need to be downloaded,
-installed, and fixed manually.
+installed, and fixed manually. Also, some of the Gnome modules
+have some problems in Bundle::Gnome2
 
 =head1 AUTHOR
 
@@ -187,3 +184,5 @@ at your option, any later version of Perl 5 you may have available.
 
 
 =cut
+
+1;
